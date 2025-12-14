@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:white;
+}
+.nav-h2{
+    width: 100%;
+    padding: 20px 150px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.nav-h2 .logo h2{
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+}
+.nav-h2 .logo span{
+    color: darkgreen;
+    font-size: 30px;
+}
+.nav-h2 .menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.nav-h2 .menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: all 0.3s;
+    font-size: 20px;
+    color: darkgreen;
+}
+.nav-h2 .menu .sign-up{
+    padding: 12px 20px;
+    background-color: greenyellow;
+    color: aliceblue;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.nav-h2 .menu .sign-up:hover{
+    background-color: aqua;
+}
+h3{
+    margin-bottom: 20px;
+}
+.box1{
+    width:50%;
+    margin:30px auto;
+    background-color: white;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px green;
+}
+.box2{
+    width:50%;
+    margin:30px auto;
+    background-color:white;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px green;
+}
+.box3{
+    width:50%;
+    margin:30px auto;
+    background-color: white;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px green;
+}
+.btn{
+    margin-top: 20px;
+    padding:12px 32px;
+    color:white;
+    border-radius: 6px;
+    font-size: 12px;
+    background-color:green;
+    border:none;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+footer{
+    margin-top:50px;
+    background-color: black;
+    padding:20px;
+    text-align:center;
+    color: aliceblue;
+}
